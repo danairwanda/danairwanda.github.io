@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Welcome</title>
+	<title>Personal Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/asset/css/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
@@ -18,7 +18,7 @@
 		.w3-myfont{
 			font-family: "Comic Sans MS", cursive, sans-serif;
 		}
-    body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, sans-serif}
     .w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
     .fa-anchor,.fa-coffee {font-size:200px}
 
@@ -45,11 +45,11 @@
           <a class="w3-padding-large w3-hover-white w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
         </li>
         <li><a href="index.html" class="w3-lobster w3-padding-large w3-red w3-hover-white w3-"><i class="fa fa-home w3-margin-left"></i> Dana Irwanda</a></li>
-        <li class="w3-hide-small w3-right"><a href="portfolio.html" class="w3-padding-large w3-hover-red">
-          <i class="fa fa-arrow-right w3-margin-left"></i> Portfolio</a></li>
+        <li class="w3-hide-small w3-right w3-opacity"><a href="portfolio.html" class="w3-padding-large w3-hover-red">
+          <i class="fa fa-file w3-margin-left"></i> Portfolio</a></li>
 <!--           <li class="w3-hide-small w3-right"><a href="#" class="w3-padding-large w3-hover-red">
           <i class="fa fa-file w3-margin-left"></i> Application Letter</a></li> -->
-          <li class="w3-hide-small w3-right"><a href="cv.html" class="w3-padding-large w3-hover-red">
+          <li class="w3-hide-small w3-right w3-opacity"><a href="cv.html" class="w3-padding-large w3-hover-red">
           <i class="fa fa-male w3-margin-left"></i> Curriculum Vitae</a></li>
       </ul>
 
@@ -64,13 +64,36 @@
    </div>
 
   <!-- header -->
-  <header class="w3-container w3-center w3-padding-128 w3-opacity">
-    <h4 class="w3-margin w3-jumbo w3-text">DANA IRWANDA</h4>
-    <p class="w3-xlarge w3-text">Web Developer | danaekairwanda@gmail.com</p>
+  <header class="w3-container w3-center w3-padding-64 w3-opacity w3-justify"><br>
+    <h4 class="w3-margin w3-jumbo w3-text w3-text-grey"> DANA IRWANDA</h4>
+    <p class="w3-xlarge w3-text w3-text-grey fa fa-globe"> Web Developer | danaekairwanda@gmail.com</p><br>
+    <img src="/img/CoverDana.png" alt="#" class="w3-image" width="800" height="555">
+    
   </header>
   
   <!-- First Grid -->
-  <div class="w3-row-padding w3-padding-64 w3-container ">
+  <div class="w3-content w3-container w3-padding-64 w3-light-grey w3-justify" id="about">
+    <h3 class="w3-center">About Me</h3>
+    <p class="w3-center"><em>Web Developer</em></p>
+    <p></p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+       <!--  <p><b><i class="fa fa-user w3-margin-right"></i>Dana Eka Irwanda</b></p><br> -->
+        <img src="img/DanaIrwanda.jpg" alt="Photo of Me" class="w3-circle w3-image w3-opacity w3-hover-opacity-off" width="500" height="333">
+      </div>
+      <!-- hide this text on small devices -->
+      <div class="w3-col m6 w3-padding-large w3-justify">
+      <p>Hii.. I will introduce myself, myname is Dana Eka Irwanda. This website is the official website that provides information about me. this site contains curriculum vitae and portfolio.</p>
+        <p>Alhamdulillah, now I have graduated from State Politechnic of Malang at Informatics Management Study Program. my age is 22 years old, I'm personally an honest, hard-working, disciplined and focused on reaching the target and my dream. I also have skil in the field of information technology that is developing the website. oke, thank you for visit my personal website :)</p>
+         <h2>Contact Me</h2>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Blitar, East Java<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> +6285-64551-0900<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> danaekairwanda@gmail.com<br>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="w3-row-padding w3-padding-64 w3-container ">
     <div class="w3-content">
       <div class="w3-twothird w3-justify w3-section">
         <div class="w3-border-left w3-pale-red w3-border-grey w3-card-4">  
@@ -84,9 +107,9 @@
       </div>
     </div>
   </div>
-
+ -->
   <!-- Second Grid -->
-  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <!-- <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-third w3-center">
         <i class="w3-padding-64 w3-text-red fa fa-user-circle-o" style="font-size:200px;color:red"></i>
@@ -99,9 +122,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
     <!-- Contact -->
-    <div class="w3-container w3-section w3-border-top w3-border-bottom w3-border-grey w3-card-4">
+    <!-- <div class="w3-container w3-section w3-border-top w3-border-bottom w3-border-grey w3-card-4">
     <div class="w3-row w3-light-grey">
       <div class="w3-col m4 l3">
         <img src="img/image1.jpg" class="w3-circle" alt="Norway" style="width:80%">
@@ -113,7 +136,7 @@
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> danaekairwanda@gmail.com<br>
       </div>
     </div>
-    </div>
+    </div> -->
     <!-- footer -->
   <footer class="w3-container w3-red w3-center w3-margin-top">
     <p class="w3-opacity">Find me on social media.</p>

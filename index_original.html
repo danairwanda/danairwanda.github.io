@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Personal Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="asset/css/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+
+		.w3-lobster{
+			font-family: "Lobster", serif;
+		}
+		.w3-myfont{
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, sans-serif}
+    .w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+
+    /*slide animasi*/
+    .slideanim{visibility: hidden;}
+    .slide{
+      /* The name of the animation */
+      animation-name: silde;
+      -webkit-animation-name: slide;
+      /* The duration of the animation */
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      /* Make the element visible */
+      visibility: visible;
+    }
+	</style>
+</head>
+<body>
+	 
+    <!-- Navbar -->
+    <div class="w3-top">
+      <ul class="w3-navbar w3-white w3-card-2 w3-left-align w3-large">
+        <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+          <a class="w3-padding-large w3-hover-white w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        </li>
+        <li><a href="index.html" class="w3-lobster w3-padding-large w3-red w3-hover-white w3-"><i class="fa fa-home w3-margin-left"></i> Dana Irwanda</a></li>
+
+        <li class="w3-hide-small w3-right w3-opacity"><a href="certification.html" class="w3-padding-large w3-hover-red">
+          <i class="fa fa-file w3-margin-left"></i> Certification</a></li>
+
+        <li class="w3-hide-small w3-right w3-opacity"><a href="portfolio.html" class="w3-padding-large w3-hover-red">
+          <i class="fa fa-file w3-margin-left"></i> Portfolio</a></li>
+<!--           <li class="w3-hide-small w3-right"><a href="#" class="w3-padding-large w3-hover-red">
+          <i class="fa fa-file w3-margin-left"></i> Application Letter</a></li> -->
+          <li class="w3-hide-small w3-right w3-opacity"><a href="cv.html" class="w3-padding-large w3-hover-red">
+          <i class="fa fa-male w3-margin-left"></i> Curriculum Vitae</a></li>
+
+
+      </ul>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+      <ul class="w3-navbar w3-left-align w3-large w3-red">
+        <li class="w3-right"><a href="cv.html" class="w3-myfont w3-padding-large w3-hover-white"><i class="fa fa-male w3-margin-left"></i> Curriculum Vitae</a></li>
+        <!-- <li class="w3-right"><a href="index.html" class="w3-myfont w3-padding-large w3-hover-white"><i class="fa fa-arrow-right w3-margin-left"></i> Application Letter</a></li> -->
+        <li class="w3-right"><a href="portfolio.html" class="w3-myfont w3-padding-large w3-hover-white"><i class="fa fa-file w3-margin-left"></i> Portfolio</a></li>
+
+        <li class="w3-right"><a href="certification.html" class="w3-myfont w3-padding-large w3-hover-white"><i class="fa fa-file w3-margin-left"></i> Certification</a></li>
+      </ul>
+    </div>
+   </div>
+
+  <!-- header -->
+  <header class="w3-container w3-center w3-padding-64 w3-opacity w3-justify"><br>
+    <h4 class="w3-margin w3-jumbo w3-text w3-text-grey"> DANA IRWANDA</h4>
+    <p class="w3-xlarge w3-text w3-text-grey fa fa-globe"> Web Developer | danairwanda@icloud.com</p><br>
+    <img src="img/CoverDana.png" alt="#" class="w3-image" width="800" height="555">
+    
+  </header>
+  
+  <!-- First Grid -->
+  <div class="w3-content w3-container w3-padding-64 w3-light-grey w3-justify" id="about">
+    <h3 class="w3-center">About Me</h3>
+    <p class="w3-center"><em>Web Developer</em></p>
+    <p></p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+       <!--  <p><b><i class="fa fa-user w3-margin-right"></i>Dana Eka Irwanda</b></p><br> -->
+        <img src="img/DanaIrwanda.jpg" alt="Photo of Me" class="w3-circle w3-image w3-opacity w3-hover-opacity-off" width="300" height="222">
+      </div>
+      <!-- hide this text on small devices -->
+      <div class="w3-col m6 w3-padding-large w3-justify">
+      <p>Hii.. I will introduce myself, myname is Dana Eka Irwanda. This website is the official website that provides information about me. this site contains curriculum vitae and portfolio.</p>
+        <p>Alhamdulillah, now I have graduated from State Politechnic of Malang at Informatics Management Study Program. my age is 22 years old, I'm personally an honest, hard-working, disciplined and focused on reaching the target and my dream. I also have skil in the field of information technology that is developing the website. oke, thank you for visit my personal website :)</p>
+         <h2>Contact Me</h2>
+        <!-- <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-margin-right"></i> Blitar, East Java<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-margin-right"></i> +6285-64551-0900<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-margin-right"></i> danaekairwanda@gmail.com<br> -->
+        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-red"></i>Web Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-red"></i>Blitar, East Java</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-red"></i>dana  irwanda@icloud.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-red"></i>+6281-38077-6454</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="w3-row-padding w3-padding-64 w3-container ">
+    <div class="w3-content">
+      <div class="w3-twothird w3-justify w3-section">
+        <div class="w3-border-left w3-pale-red w3-border-grey w3-card-4">  
+        <h1>Welcome</h1>
+        <h5 class="w3-padding-32 w3-text-dark-grey"> Welcome to the official website of my personal, introduce my full name Dana Eka Irwanda, I made this website to apply for employment in companies that contains information about the data myself. This site contains job application letter, and my portfolio. <br> 
+        </h5>
+      </div>
+      </div>
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-red fa fa-globe" style="font-size:200px;color:red"></i>
+      </div>
+    </div>
+  </div>
+ -->
+  <!-- Second Grid -->
+  <!-- <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-red fa fa-user-circle-o" style="font-size:200px;color:red"></i>
+      </div>
+
+      <div class="w3-twothird w3-justify">
+      <div class="w3-border-right w3-pale-red w3-border-grey w3-card-4">
+        <h1>About Me</h1>
+        <h5 class="w3-padding-32 w3-text-dark-grey">Alhamdulillah, now I have graduated from State Politechnic of Malang at Informatics Management Study Program. my age is 22 years old, I'm personally an honest, hard-working, disciplined and focused on reaching the target and my dream. I also have skil in the field of information technology that is developing the website.</h5>
+        </div>
+      </div>
+    </div>
+  </div> -->
+    <!-- Contact -->
+    <!-- <div class="w3-container w3-section w3-border-top w3-border-bottom w3-border-grey w3-card-4">
+    <div class="w3-row w3-light-grey">
+      <div class="w3-col m4 l3">
+        <img src="img/image1.jpg" class="w3-circle" alt="Norway" style="width:80%">
+      </div>
+      <div class="w3-col m8 l9 w3-left">
+        <h2>Contact Me</h2>
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Blitar, East Java<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> +6285-64551-0900<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> danaekairwanda@gmail.com<br>
+      </div>
+    </div>
+    </div> -->
+    <!-- footer -->
+  <footer class="w3-container w3-red w3-center w3-margin-top">
+    <p class="w3-opacity">Find me on social media.</p>
+    <a href="https://github.com/danairwanda" class="fa fa-github w3-hover-text-indigo w3-large"></a>
+    <a href="https://web.facebook.com/droflezirwanda1" class="fa fa-facebook-official w3-hover-text-indigo w3-large"></a>
+    <a href="https://www.instagram.com/danaekairwanda" class="fa fa-instagram w3-hover-text-purple w3-large"></a>
+    <a href="https://twitter.com/danaekairwanda" class="fa fa-twitter w3-hover-text-light-blue w3-large"></a>
+    <a href="https://www.linkedin.com/in/dana-irwanda-a95479a1" class="fa fa-linkedin w3-hover-text-indigo w3-large"></a>
+    <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  
+
+  <script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+</body>
+</html>
